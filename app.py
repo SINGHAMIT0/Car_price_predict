@@ -36,7 +36,7 @@ def predict():
     else:
         my_prediction = classifier.predict(data)
 
-    return render_template('index.html', prediction_text='The Maximum Selling Price of the Car will be $ {}'.format(round(my_prediction[0],2)))
+    return render_template('index.html', prediction_text='The Maximum Selling Price of the Car will be ₹ {}'.format(round(my_prediction[0],2)))
 
 
 
