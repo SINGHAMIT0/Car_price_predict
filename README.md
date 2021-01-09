@@ -2,4 +2,4 @@
 Intelligent AI to predict price of old car
 
 App link:
-https://car-sale-price-predict.herokuapp.com/predict
+https://car-price-predictor01.herokuapp.com/
